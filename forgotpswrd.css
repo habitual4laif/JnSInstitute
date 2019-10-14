@@ -1,0 +1,35 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: rgba(63, 14, 64, 0.93);
+    font-size: 16px;
+    color: #777;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-color
+}
+.text-center {
+    color: #ffffff;
+}
+
+.form-gap {
+    padding-top : 90px;
+    
+}
+
+.container {
+    min-width: 500px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+}
+@media (max-width: 500px) {
+    .container{
+        min-width: 90%;
+    }
+}

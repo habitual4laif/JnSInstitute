@@ -1,0 +1,78 @@
+body {
+    color: #000;
+}
+.skills {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+
+  .skills .column {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /* .tec {
+      text-align: center;
+  } */
+
+
+  input {
+	/* margin: 15px; */
+	display: block;
+	width: 80%;
+	padding: 8px;
+    border: 1px solid gray;
+    color: #000000;
+}
+
+fieldset {
+	border: medium none;
+	margin: 15px auto;
+	min-width: 100%;
+	padding: 0;
+	width: 80%;
+}
+
+textarea {
+    width:80%;
+    padding: 8px;
+    border:1px solid #CCC;
+    color: #000000;
+    margin:0 0 5px;
+    padding:10px;
+
+  }
+
+.sumit {
+    border:2px solid;
+    border-radius: 5px;
+    color: #521652;
+    background-color: #FFF; 
+    width: 80%;
+    padding: 10px;
+    align-items: center;
+}
+.sumit:hover {
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #521652;
+    color: #FFF;
+}
+.address {
+    color: #000000;
+    padding-top: 60px;
+}
+
+@media (max-width: 900px) {
+    
+}
+
+@media (max-width: 500px) {
+    
+}
