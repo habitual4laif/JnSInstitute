@@ -46,6 +46,6 @@ else{
         VALUES ('$first', '$last', '$email', '$encrypted_password', '$encrypted_password1')";
         $result = $dbh->query($sql);
 
-        header('Location: login.php?1');  //This takes the user back to the home page after clicking submit button
+        header('Location: login.php?100');  //This takes the user back to the home page after clicking submit button
     }
 }

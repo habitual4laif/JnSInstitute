@@ -23,7 +23,7 @@
       <div class="right-box align-items-center">
   <?php
     $errMsg = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-        if (strpos($errMsg, 'login.php?1') !== false){
+        if (strpos($errMsg, 'login.php?100') !== false){
             echo "<div style='text-align:center; font-size:2rem; color:#f69'>You have successful SignUp</div>";
         }
 
